@@ -1,10 +1,6 @@
 package com.exam.controller;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -114,7 +110,7 @@ public class QuestionController {
     	      }
     	}
     	
-    	Map<String,Object> map = Map.of("marksGot",marksGot,"correctAnswers",correctAnswers,"attempted",attempted);
+    	Map<String,Object> map =changes  Map.of("marksGot",marksGot,"correctAnswers",correctAnswers,"attempted",attempted);
     	
     	return  ResponseEntity.ok(map);
     }
