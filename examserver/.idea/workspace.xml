@@ -4,61 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b7e4ec4-7957-4ea6-9286-54e89a616c95" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="6b7e4ec4-7957-4ea6-9286-54e89a616c95" name="Changes" comment="changes in code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exam/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.exam/examserver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.exam/examserver/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/ExamserverApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/config/JwtAuthenticationEntryPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/config/JwtAuthenticationFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/config/JwtUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/config/MySecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/controller/AuthenticateController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/controller/CategoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/controller/QuestionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/controller/QuizController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/helper/UserFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/helper/UserNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/model/Authority.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/model/JwtRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/model/JwtResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/model/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/model/UserRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/model/exam/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/model/exam/Question.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/model/exam/Quiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/repo/CategoryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/repo/QuestionRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/repo/QuizRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/repo/RoleRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/repo/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/service/CategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/service/QuestionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/service/QuizService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/service/ipmpl/CategoryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/service/ipmpl/QuestionServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/service/ipmpl/QuizServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/service/ipmpl/UserDetailsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exam/service/ipmpl/UserServiceimpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/examportal.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/examserver-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.exam.ExamserverApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.exam.ExamserverApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/exam/ExamserverApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/service/ipmpl/UserServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exam/service/ipmpl/UserServiceimpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +126,15 @@
       <option name="presentableId" value="Default" />
       <updated>1662442835222</updated>
     </task>
+    <task id="LOCAL-00001" summary="changes in code">
+      <option name="closed" value="true" />
+      <created>1698473421460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698473421461</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,5 +147,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes in code" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes in code" />
   </component>
 </project>

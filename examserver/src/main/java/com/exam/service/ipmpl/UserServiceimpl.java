@@ -12,6 +12,8 @@ import com.exam.repo.RoleRepository;
 import com.exam.repo.UserRepository;
 import com.exam.service.UserService;
 
+import javax.persistence.EntityNotFoundException;
+
 
 @Service
 public class UserServiceimpl implements UserService {
@@ -64,7 +66,7 @@ public class UserServiceimpl implements UserService {
    @Override
 	public void updateUser(User user) {
 		 // check if the user with the passed id exists or not
-	    User userDB = userRepository.findById(user.getId()).orElseThrow();
+	    User userDB = userRepository.findById(user.getId()).orElseThrow(EntityNotFoundException::new);
 	    // If user exists then updated
 	    userRepository.save(user);
 	}

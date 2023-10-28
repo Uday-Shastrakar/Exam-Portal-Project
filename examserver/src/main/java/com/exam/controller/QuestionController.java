@@ -109,9 +109,12 @@ public class QuestionController {
     	        attempted++;
     	      }
     	}
-    	
-    	Map<String,Object> map =changes  Map.of("marksGot",marksGot,"correctAnswers",correctAnswers,"attempted",attempted);
-    	
+
+        Map<String, Object> map = new HashMap<>();
+        map.put("marksGot", marksGot);
+        map.put("correctAnswers", correctAnswers);
+        map.put("attempted", attempted);
+
     	return  ResponseEntity.ok(map);
     }
     
