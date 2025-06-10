@@ -1,0 +1,26 @@
+
+
+<!-- <div class="bootstrap-wrapper">
+    <div class="container">
+        <h1>Seed Exam</h1>
+        <div class="row">hi</div>
+        <button mat-raised-button>Click me</button>
+    </div>
+</div> -->
+
+<div ngxUiLoaderBlurred (blur)="10">
+    <!-- This page content will be blurred/frosted when foreground loader is showed -->
+    <app-navbar></app-navbar>
+
+<!-- dynamic content -->
+<router-outlet></router-outlet>
+
+  </div>
+<!-- navbar static -->
+<ngx-ui-loader 
+fgsColor="#f2f211" 
+pbColor="#f2f211"
+text="Please Wait..."
+fgsType="wandering-cubes"
+
+></ngx-ui-loader>
